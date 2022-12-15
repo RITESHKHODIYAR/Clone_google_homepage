@@ -1,0 +1,51 @@
+#head{
+    display:flexbox;
+    color:brown;
+    text-align: right;
+    margin:10px 5px;
+    font-size: larger;
+    
+}
+#logo{
+    font-size:100px;
+    text-align:center;
+    color: blue;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial,sans-serif;
+    
+}
+#searchbox{
+    
+    color: black;
+}
+#srcbx{
+   border-radius: 30px;
+   color: blue;
+   margin-top: 10px;
+}
+#butt{
+    height: 20px;
+display: flex;
+padding: 10px 10px 10px 10px;
+margin-left: 50px 50px;
+align-content: space-between;  
+}
+/* #bottom{
+    display: flexbox;
+    position: sticky;
+    bottom: 0;
+    height: 30vh;
+    display: table-cell;
+  vertical-align: bottom;
+  text-align: right;
+} */
+#bottom{
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    margin-right: 20px;
+    padding: 20px;
+}
